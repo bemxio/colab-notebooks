@@ -1,0 +1,48 @@
+--- HOW TO MAKE A DEEPFAKE/DAME DA NE MEME ---
+
+Note: make sure your face picture is a .png file
+      and your template video is a .mp4 file and is 256 x 256 pixels.
+
+If you want to get the most popular meme templates,
+get it from https://drive.google.com/folderview?id=1BrJpfjJxtPt2Wrv1H1J4uhbs0xj0dP-I
+
+1. Resize the face picture to be 256 x 256 pixels.
+2. Make a folder called "first-order-motion-model" on your Google Drive.
+3. Put the face picture and the template video in that folder.
+    3.1. Rename the face picture to "02.png"
+    3.2. Rename the template video to "04.mp4"
+4. Make a copy of every .tar file from https://drive.google.com/drive/folders/1kZ1gCnpfU0BnpdU47pLM_TQ6RypDDqgw?usp=sharing
+    4.1. Move the files to "first-order-motion-model" on your drive.
+    4.2. Delete the "Copy" from the file name of both files.
+5. Go to the Google Colab link (https://colab.research.google.com/drive/1hZ0LEJ4ZO42ebdfvEIZ7cGf4S7Fkk4NR).
+6. Run each checkpoint (by clicking the square on the left top side of the code) one after another.
+7. Click the folder icon on the left site of a page.
+8. Click the 3 dots on the "result.mp4" file and press "Download".
+
+**IMPORTANT NOTE**
+If you ended making it or you want to make another one, 
+click the arrow on the RAM and disk statistics,
+click "Manage sessions",
+and click the trash icon/"Terminate" button.
+
+And here you go! You've made the deepfake meme :D
+Of course this algorithm isn't perfect,
+so sometimes it would not lip sync,
+and it would overall look weird.
+
+FAQ:
+Q: I get "Cannot connect to GPU" pop-up!
+A: Colab has a limit of GPU usage, 
+   so it can share GPU power to the others.
+   Wait around 12 - 24 hours,
+   or just make an another account for it.
+Q: I get a red circle when I'm trying to run the checkpoint!
+A: You probably made a typo somewhere.
+   Make sure your:
+   • folder name is "first-order-motion-model"
+   • face picture name is "02.png"
+   • template picture name is "04.mp4"
+   And check if you copied .tar files into the folder and deleted "Copy" off their names.
+   
+If you got any problems that are not in the FAQ, 
+contact bemxio on Discord (bemxio#7320).
